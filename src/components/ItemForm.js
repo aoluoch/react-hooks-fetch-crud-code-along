@@ -5,7 +5,7 @@ function ItemForm() {
   const [category, setCategory] = useState("Produce");
 
   return (
-    <form className="NewItem">
+    <form className="NewItem"> 
       <label>
         Name:
         <input
